@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+}
+header{
+	width:100%;
+	height:120px;
+	top:0;
+	background-color: black;
+	position: fixed;
+	z-index: 100;
+}
+footer{
+	width:100%;
+	height:60px;
+	background-color: black;
+	position: relative;
+	bottom: 0;
+	overflow: hidden;
+}
+#copyright{
+	margin-top: 20px;
+	color:white;
+	text-align: center;
+}
+header h1{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	margin:10px;
+	font-family: cursive;
+}
+#headerlist,#footerlist{
+	margin-left:  200px;
+	margin-right: 200px;
+	margin-top: 20px;
+
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	
+}
+header nav ul li{
+	padding: 10px;
+	flex-basis: 33%;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	background-color: #555;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+/* main/*/
+main{
+	width:100%;
+	height:auto;
+	margin-top: 150px;
+}
+.container-wrap{
+	width:58%;
+	float:left;
+	padding: 10px;
+	margin: 20px;
+}
+.container-aside{
+	width:38%;
+	float:right;
+}
+.container{
+	padding: 30px;
+	background-color: rgb(87, 196, 196);
+}
+.article h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.article p{
+	text-align: justify;
+	padding: 10px;
+}
+.item img{
+	width:80%;
+	height:auto;
+}
+.item{
+	display: block;
+}
+.my-form{
+	padding:20px;
+}
+.my-form .form-grp{
+	padding-bottom: 20px;
+}
+.my-form label{
+display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+.my-form input[type="submit"]{
+	background-color: #333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+.iframe{
+	width:80%;
+	height:auto;
+	position:relative;
+	margin: 20px;
+}
+.article ul{
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.article ul li{
+	text-decoration: none;
+}
+
