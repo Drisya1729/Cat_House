@@ -68,7 +68,7 @@ main{
 	margin: 20px;
 }
 .container-aside{
-	width:38%;
+	width:35%;
 	float:right;
 }
 .container{
@@ -109,11 +109,10 @@ display: block;
 	padding:10px 15px;
 	border:none;
 }
-.iframe{
-	width:80%;
-	height:auto;
+.iframe iframe{
+	
 	position:relative;
-	margin: 20px;
+	margin: 30px;
 }
 .article ul{
 	margin-left: 50px;
