@@ -110,9 +110,10 @@ display: block;
 	border:none;
 }
 .iframe iframe{
-	
-	position:relative;
-	margin: 30px;
+		width:auto;
+	height: auto;
+	position: relative;
+	margin: 20px;
 }
 .article ul{
 	margin-left: 50px;
